@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'django_paper_2023.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-USE_SQLITE = False
+USE_SQLITE = True
 
 if USE_SQLITE:
     DATABASES = {
@@ -91,7 +91,7 @@ else:
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'delme',
             'USER': 'postgres',
-            'PASSWORD': '---',
+            'PASSWORD': '',
             'HOST': 'localhost',
             'PORT': '',
         }}
@@ -136,3 +136,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]

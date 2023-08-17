@@ -1,0 +1,12 @@
+{% load static %}
+<html lang="en">
+<link rel="{% static "style.css" %}">
+<body>
+{% include "menu.html" %}
+<h2>{% block title %} Title please!
+{% endblock title %}</h2>
+{% block content %} Content please!
+{% endblock content %}
+{% include "footer.html" %}
+</body>
+</html>
