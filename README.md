@@ -3,7 +3,7 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-A demo project for this paper <insert reference when known>
+A demo project for this paper ...insert reference when known...
 
 
 ## Run Locally
@@ -53,9 +53,10 @@ Visit the admin page
 http://127.0.0.1:8000/admin/
 ```
 
-Here, create a study. 
+Here, create a study
 
-Revisit http://127.0.0.1:8000/study/1/. You shoud see the study you created in admin.
+Revisit http://127.0.0.1:8000/study/1/. You shoud see the study you created in admin
+
 ## Acknowledgements
 
  - Readme  written rapidly via [https://readme.so/](https://readme.so/)
